@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BinRiaz Traders</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header, nav, section, footer { padding: 20px; }
+    header { background: #004d40; color: #fff; text-align: center; }
+    nav { background: #e0f2f1; text-align: center; }
+    nav a { margin: 0 15px; color: #004d40; text-decoration: none; font-weight: bold; }
+    section { padding: 30px; }
+    .features, .regions, .contact, .products { display: flex; flex-wrap: wrap; gap: 20px; }
+    .card { flex: 1; padding: 15px; background: #f1f1f1; border-radius: 8px; min-width: 250px; }
+    footer { background: #004d40; color: #fff; text-align: center; padding: 10px; }
+    .cta { background: #009688; color: #fff; padding: 10px 20px; display: inline-block; border-radius: 5px; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BinRiaz Traders</h1>
+    <p>Delivering Essentials, Powering Retail Since 1980</p>
+  </header>
+
+  <nav>
+    <a href="#products">Products</a>
+    <a href="#features">Why Us</a>
+    <a href="#regions">Service Areas</a>
+    <a href="#app">App</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="card"><h3>Staple Commodities</h3><p>Rice, Wheat, Flour, Sugar, Oil</p></div>
+      <div class="card"><h3>Livestock Feed</h3><p>Bran, Pellets</p></div>
+      <div class="card"><h3>FMCG</h3><p>Soaps, Detergents, Household Cleaning Supplies</p></div>
+    </div>
+  </section>
+
+  <section id="features">
+    <h2>Why Choose BinRiaz?</h2>
+    <div class="features">
+      <div class="card"><h3>Digital Convenience</h3><p>Order anytime via our app.</p></div>
+      <div class="card"><h3>Flexible Payment</h3><p>Buy now, pay later options.</p></div>
+      <div class="card"><h3>Personalized Service</h3><p>We tailor delivery and support to your business needs.</p></div>
+      <div class="card"><h3>Loyalty Rewards</h3><p>Earn points and enjoy exclusive offers.</p></div>
+    </div>
+  </section>
+
+  <section id="regions">
+    <h2>Regions We Serve</h2>
+    <div class="regions">
+      <div class="card"><h3>Swabi</h3></div>
+      <div class="card"><h3>Mardan</h3></div>
+      <div class="card"><h3>Topi</h3></div>
+      <div class="card"><h3>Buner</h3></div>
+    </div>
+  </section>
+
+  <section id="app">
+    <h2>Introducing BinRiaz Connect</h2>
+    <p>Experience digital ordering, live inventory updates, delivery tracking, and credit sales management.</p>
+    <a href="#" class="cta">Download App</a>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>BinRiaz Traders is a private limited company established in 1980 in Marghuz, Swabi. From trading basic commodities to leading wholesale innovation, we are now embracing technology with our B2B digital platform.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact">
+      <div class="card">
+        <p><strong>Address:</strong> Marghuz, Swabi, Khyber Pakhtunkhwa</p>
+        <p><strong>Email:</strong> info@binriaztraders.com</p>
+        <p><strong>Phone:</strong> +92-300-1234567</p>
+        <p><strong>WhatsApp:</strong> +92-300-1234567</p>
+      </div>
+      <div class="card">
+        <form>
+          <p><input type="text" placeholder="Your Name" style="width: 100%; padding: 10px;"></p>
+          <p><input type="email" placeholder="Your Email" style="width: 100%; padding: 10px;"></p>
+          <p><textarea placeholder="Message" style="width: 100%; padding: 10px;"></textarea></p>
+          <p><button type="submit" class="cta">Send Message</button></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BinRiaz Traders. All rights reserved.</p>
+  </footer>
+</body>
+</html>
